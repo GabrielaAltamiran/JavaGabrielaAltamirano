@@ -29,4 +29,10 @@ public class Productos {
 	public void setStockActual(int stockActual) {
 		this.stockActual = stockActual;
 	}
+	public Productos(String nombre, String descripcion,double precio,int stock) {
+		this.nombre=nombre;
+		this.descripcion=nombre;
+		this.precio=precio;
+		this.stockActual=stock;
+	}
 }
